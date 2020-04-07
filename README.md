@@ -4,7 +4,7 @@ curl -s -L https://filters.adtidy.org/extension/chromium/filters/15.txt > adbloc
 
 sort -u adblock.unsorted | grep ^\|\|.*\^$ | grep -v \/ > adblock.sorted
 
-sed 's/[\|^]//g' < adblock.sorted > adblock.hosts'
+sed 's/[\|^]//g' < adblock.sorted > adblock.hosts
 
 
 
