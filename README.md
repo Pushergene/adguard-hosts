@@ -1,8 +1,8 @@
 # adguard-hosts
 ```
-curl -s -L https://filters.adtidy.org/extension/chromium/filters/15.txt > adblock.unsorted
-sort -u adblock.unsorted | grep ^\|\|.*\^$ | grep -v \/ > adblock.sorted
-sed 's/[\|^]//g' < adblock.sorted > adblock.hosts
+curl -s -L https://filters.adtidy.org/extension/chromium/filters/15.txt > host.txt
+sort -u host.txt | grep ^\|\|.*\^$ | grep -v \/ > host1.txt
+sed 's/[\|^]//g' < host1.txt > host2.txt
 ```
 
 
