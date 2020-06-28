@@ -21,3 +21,6 @@ gedit
     Press the Find button.
 
     Press the Replace button repeatedly until all the lines you wanted to add 0.0.0.0 to are complete.
+    
+    
+ * allow     \n* 
